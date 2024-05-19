@@ -1,4 +1,4 @@
-from msilib.schema import ListView
+from django.views.generic import ListView
 from django.shortcuts import render, redirect
 from django.views import View
 from django.contrib.auth.models import User
